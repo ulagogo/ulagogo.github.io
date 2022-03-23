@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>本地旅游导航 on Yuanyuan&#39;s Portfolio ✨</title>
+    <link>https://ulagogo.github.io/tags/%E6%9C%AC%E5%9C%B0%E6%97%85%E6%B8%B8%E5%AF%BC%E8%88%AA/</link>
+    <description>Read the latest  本地旅游导航 on Yuanyuan&#39;s Portfolio ✨</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ulagogo.github.io/tags/%E6%9C%AC%E5%9C%B0%E6%97%85%E6%B8%B8%E5%AF%BC%E8%88%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>本地自然区域探索指南</title>
+      <link>https://ulagogo.github.io/posts/visitampere/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/visitampere/</guid>
+      <description>【NaturalTampere】
+在千湖之国芬兰，森林和湖泊是他们引以为傲的财富。西南城市坦佩雷，被两座大湖环绕其中，且市内一共有200多个大大小小的湖泊，夏季可以游泳、钓鱼和划船，冬季则变成了滑冰和打冰球的运动场地。真正的森林也离市中心一步之遥，在茂密的绿色中徒步是芬兰人的日常，浆果和蘑菇是意外的收获。在冰雪交加的季节，在湖畔小木屋享受一场酣畅的桑拿，是冬季独特的快乐。
+然而，对远道而来的游客来说，户外体验也许因为缺乏对当地的了解而充满障碍。即使有一些旅游向导网站和书籍，信息没有专注于户外活动，也无法满足不同兴趣需求。因此，坦佩雷官方旅游引导网站VisitTampere提出希望有一款目标人群为“坦佩雷户外活动新手”的移动端软件，UX小组（Yuanyuan、Shuo、Helina）参与了此次项目。
+演示视频展示：  .aspect-ratio { position: relative; width: 100%; height: 0; padding-bottom: 75%; } .aspect-ratio iframe { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }    ’
+设计分析： 用户画像（其一）：
+以Marc Hassenzahl的UX模型为模板定义产品的功能、特性和结果： 以用户体验为驱动力可被定义为：
+ Why：游客想要探索坦佩雷的自然景色，所以他/她需要知道哪些地方是值得一去的； What：为了获取更好的游玩体验，有很多信息是他/她需要了解的：地理位置、景色、餐厅、交通，以及可以参与的娱乐活动； How：除了在网络上盲目搜寻可能不准确的攻略、查询可能已经过时的向导书，有一个即时更新和信息全面的线上服务是一个更好的选择。  项目的体验设计目标：
+ 愉悦：用户在浏览线上信息时会触发积极情绪，在旅途前对目的地有期待感。 满意：用户会通过服务得到各种各样的提示信息，如线路推荐、穿衣建议、最佳旅行时段等，足量的信息使用户产生安全感。 可交互：用户不止可以通过此服务获得旅行信息，同样可以分享自己的体验和观看其他旅行者的经历。  概念原型： 登录页:
+主页： 详情页：
+用户测试及结果： 本次项目以用户主观感受为测评依据，通过情绪卡片和评价产品可用性和设计性的问卷，验证此次设计是否完成了目标。
+ EMO Cards  AttackDiff Questionnaire
+  在本次测试中，大部分被试者都愿意尝试这个服务，如果在应用商店上架的话愿意进行下载。根据被试者的回答，我们的体验目标（享受、满意、有掌控感和互动性）得到了很好的满足，并且设计吸引力的分数也达到了预期。更重要的是，该服务为不同兴趣的人寻找新的自然场所提供了帮助：Jessica希望欣赏到各地的景色即时自己暂时无法到达，Aapo希望得到有关浆果和蘑菇的信息，并且也可能通过此服务与同兴趣的人结伴出游，Ilkka对寻找新的适合儿童的野游地充满了期待。当然，我们也收到了惊喜的建议，如AR技术可以给用户带来更生动的体验，用户也可以参与到信息库的建立中。</description>
+      <content:encoded>
+        <![CDATA[ <p>【NaturalTampere】</p>
+<p>在千湖之国芬兰，森林和湖泊是他们引以为傲的财富。西南城市坦佩雷，被两座大湖环绕其中，且市内一共有200多个大大小小的湖泊，夏季可以游泳、钓鱼和划船，冬季则变成了滑冰和打冰球的运动场地。真正的森林也离市中心一步之遥，在茂密的绿色中徒步是芬兰人的日常，浆果和蘑菇是意外的收获。在冰雪交加的季节，在湖畔小木屋享受一场酣畅的桑拿，是冬季独特的快乐。<br>
+然而，对远道而来的游客来说，户外体验也许因为缺乏对当地的了解而充满障碍。即使有一些旅游向导网站和书籍，信息没有专注于户外活动，也无法满足不同兴趣需求。因此，坦佩雷官方旅游引导网站VisitTampere提出希望有一款目标人群为“坦佩雷户外活动新手”的移动端软件，UX小组（Yuanyuan、Shuo、Helina）参与了此次项目。</p>
+<h2 id="演示视频展示">演示视频展示：</h2>
+<style>
+.aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    }
+      
+.aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    }
+</style>
+      
+
+<div align=center class="aspect-ratio">
+    <iframe src="https://player.bilibili.com/player.html?aid=467457869&&page=1&as_wide=1&high_quality=1&danmaku=0" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"> 
+    </iframe>
+</div>
+<h2 id="设计分析">’<br>
+设计分析：</h2>
+<p>用户画像（其一）：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hvi85d4jj20yw0u0jwl.jpg" alt="user"  />
+</p>
+<p>以Marc Hassenzahl的UX模型为模板定义产品的功能、特性和结果：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hve8ag6zj20le0cfwfd.jpg" alt="ux-model"  />
+</p>
+<p>以用户体验为驱动力可被定义为：</p>
+<ul>
+<li>Why：游客想要探索坦佩雷的自然景色，所以他/她需要知道哪些地方是值得一去的；</li>
+<li>What：为了获取更好的游玩体验，有很多信息是他/她需要了解的：地理位置、景色、餐厅、交通，以及可以参与的娱乐活动；</li>
+<li>How：除了在网络上盲目搜寻可能不准确的攻略、查询可能已经过时的向导书，有一个即时更新和信息全面的线上服务是一个更好的选择。</li>
+</ul>
+<p>项目的体验设计目标：</p>
+<ul>
+<li>愉悦：用户在浏览线上信息时会触发积极情绪，在旅途前对目的地有期待感。</li>
+<li>满意：用户会通过服务得到各种各样的提示信息，如线路推荐、穿衣建议、最佳旅行时段等，足量的信息使用户产生安全感。</li>
+<li>可交互：用户不止可以通过此服务获得旅行信息，同样可以分享自己的体验和观看其他旅行者的经历。</li>
+</ul>
+<h2 id="概念原型">概念原型：</h2>
+<p>登录页:<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwv8xg0jj20w10iwte7.jpg" alt="login"  />
+</p>
+<p>主页：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwvr7bmmj20xv0jxjxc.jpg" alt="main"  />
+</p>
+<p>详情页：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwze6f5mj21590f3wit.jpg" alt="details"  />
+</p>
+<h2 id="用户测试及结果">用户测试及结果：</h2>
+<p>本次项目以用户主观感受为测评依据，通过情绪卡片和评价产品可用性和设计性的问卷，验证此次设计是否完成了目标。</p>
+<ol>
+<li>EMO Cards
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0iyzrujkrj20tz09htas.jpg" alt="emocards"  />
+</li>
+<li>AttackDiff Questionnaire<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0ir1gw0qaj228e0u041r.jpg" alt="at-que"  />
+</li>
+</ol>
+<p>在本次测试中，大部分被试者都愿意尝试这个服务，如果在应用商店上架的话愿意进行下载。根据被试者的回答，我们的体验目标（享受、满意、有掌控感和互动性）得到了很好的满足，并且设计吸引力的分数也达到了预期。更重要的是，该服务为不同兴趣的人寻找新的自然场所提供了帮助：Jessica希望欣赏到各地的景色即时自己暂时无法到达，Aapo希望得到有关浆果和蘑菇的信息，并且也可能通过此服务与同兴趣的人结伴出游，Ilkka对寻找新的适合儿童的野游地充满了期待。当然，我们也收到了惊喜的建议，如AR技术可以给用户带来更生动的体验，用户也可以参与到信息库的建立中。</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+  </channel>
+</rss>

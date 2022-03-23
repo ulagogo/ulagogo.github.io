@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>调试工具优化 on Yuanyuan&#39;s Portfolio ✨</title>
+    <link>https://ulagogo.github.io/tags/%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%E4%BC%98%E5%8C%96/</link>
+    <description>Read the latest  调试工具优化 on Yuanyuan&#39;s Portfolio ✨</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ulagogo.github.io/tags/%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>相机图像质量测评</title>
+      <link>https://ulagogo.github.io/posts/camera/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/camera/</guid>
+      <description>为便于流程化的图像调试，相机组开发了一系列的自动化工具。由于参数众多、配置流程复杂，即使主要用户为专业工程师，调试工具依然具有很高的学习门槛。因此在了解图像调试专业知识的前提下，对自动化调试工具进行界面和交互上的优化，使其更符合调试流程路径，功能分区排布更合理。
+自动编译工具线框图：
+此外，对新增的工具编写可读性较强的工具手册：
+（一些更有趣的工作）为相机变焦流畅度实验准备材料，包括客观的实验室自动拍摄场景，和主观的室内外实景拍摄场景：
+主观测评：
+ 选用饱和度较高且背景较为丰富的图书馆场景和湖畔森林场景，准备参与测评的相机在相同位置和光线条件下的拍摄视频。 专注于焦段变化导致的镜头切换时的视频，同时在屏幕上随机播放两个不同设备的视频，通过专家小组测评，在亮度、对比度、饱和度、焦点移动、图像清晰度等多方面进行更优视频的选择。 通过对被试者选择结果的分析，计算出每个设备在每方面的得分并进行排名。  客观测评：
+ 尝试不同的公式计算目标色卡区域的饱和度值变化曲线，并比较得出结果最合理的公式进行最终计算，得到镜头切换前和切换后的变化大小，从而计算出每个设备的表现。  Recommendation Letter from Vepe：</description>
+      <content:encoded>
+        <![CDATA[ <p>为便于流程化的图像调试，相机组开发了一系列的自动化工具。由于参数众多、配置流程复杂，即使主要用户为专业工程师，调试工具依然具有很高的学习门槛。因此在了解图像调试专业知识的前提下，对自动化调试工具进行界面和交互上的优化，使其更符合调试流程路径，功能分区排布更合理。</p>
+<p>自动编译工具线框图：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7lavi8bj20hz0g3q4w.jpg" alt=""  />
+</p>
+<p>此外，对新增的工具编写可读性较强的工具手册：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7p8ldjej20sg0yzadt.jpg" alt=""  />
+</p>
+<p>（一些更有趣的工作）为相机变焦流畅度实验准备材料，包括客观的实验室自动拍摄场景，和主观的室内外实景拍摄场景：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k84rkaluj20u010wdqe.jpg" alt=""  />
+</p>
+<p>主观测评：</p>
+<ul>
+<li>选用饱和度较高且背景较为丰富的图书馆场景和湖畔森林场景，准备参与测评的相机在相同位置和光线条件下的拍摄视频。</li>
+<li>专注于焦段变化导致的镜头切换时的视频，同时在屏幕上随机播放两个不同设备的视频，通过专家小组测评，在亮度、对比度、饱和度、焦点移动、图像清晰度等多方面进行更优视频的选择。</li>
+<li>通过对被试者选择结果的分析，计算出每个设备在每方面的得分并进行排名。</li>
+</ul>
+<p>客观测评：</p>
+<ul>
+<li>尝试不同的公式计算目标色卡区域的饱和度值变化曲线，并比较得出结果最合理的公式进行最终计算，得到镜头切换前和切换后的变化大小，从而计算出每个设备的表现。</li>
+</ul>
+<p>Recommendation Letter from Vepe：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7003xwuj20gk0nedgz.jpg" alt=""  />
+</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+  </channel>
+</rss>

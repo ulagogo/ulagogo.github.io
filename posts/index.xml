@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Yuanyuan&#39;s Portfolio ✨</title>
+    <link>https://ulagogo.github.io/posts/</link>
+    <description>Read the latest  Posts on Yuanyuan&#39;s Portfolio ✨</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ulagogo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手游发行平台</title>
+      <link>https://ulagogo.github.io/posts/gamesdk/</link>
+      <pubDate>Sun, 20 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/gamesdk/</guid>
+      <description>——协助手游发行的全流程
+用户路径：
+ 游戏排期日历设计：
+除了视图和布局的不合理，旧版日历也存在可简化操作路径的功能。如，筛选更新类型时，需要下拉选择后再次点搜索按钮才能生效，取消也需要再次点击按钮；日期切换涉及到两个下拉列表分别控制年和月的切换；新增计划事件时，即使只有少量选项也使用下拉菜单进行选择操作。  新版日历优化，将页面分为月视图和日视图展示：
+ 月视图：以事件优先级进行颜色区分，以突出重要事件。标签以icon区分游戏，文本展示用户所添加的事件标题，将有限的标签空间展示最有效的信息。日历中可展示有时间跨度的事件，提高了日历使用的灵活性和自由度。 日视图：初始默认展示今日所有事件，可点击日历区域进行日期的切换。    本地打包工具设计：
+可进行多任务的选择和配置，展示每个渠道的配置状态标识。配置卡片可进行收起，因此可在同一页面对所有渠道进行配置。
+  推送功能设计：
+为满足玩家回流需求所设计的新全球推送功能。
+    任务列表：
+任务列表设计的主要难点在于一次任务中可以有多个“子任务”，即可选循环或定时的多次推送。在列表对于推送时间和结果的展示上做了如下处理：
+  推送任务:
+支持多个可选择的筛选项， 包括安卓和iOS平台的选择、推送次数类型（多次推送则涉及到多次时间或时间段的选择），在表单中对于推送的类型和目标做了如下处理：   任务详情：   版本更新说明弹窗设计：
+  </description>
+      <content:encoded>
+        <![CDATA[ <p>——协助手游发行的全流程</p>
+<p>用户路径：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k5dbqzmrj21840cwwfg.jpg" alt=""  />
+</p>
+<ol>
+<li>游戏排期日历设计：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k65w2ua0j21980ozn0r.jpg" alt=""  />
+ <br>
+除了视图和布局的不合理，旧版日历也存在可简化操作路径的功能。如，筛选更新类型时，需要下拉选择后再次点搜索按钮才能生效，取消也需要再次点击按钮；日期切换涉及到两个下拉列表分别控制年和月的切换；新增计划事件时，即使只有少量选项也使用下拉菜单进行选择操作。</li>
+</ol>
+<p>新版日历优化，将页面分为月视图和日视图展示：</p>
+<ul>
+<li>月视图：以事件优先级进行颜色区分，以突出重要事件。标签以icon区分游戏，文本展示用户所添加的事件标题，将有限的标签空间展示最有效的信息。日历中可展示有时间跨度的事件，提高了日历使用的灵活性和自由度。</li>
+<li>日视图：初始默认展示今日所有事件，可点击日历区域进行日期的切换。
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k5yx0jfqg21440sp0z3.gif" alt=""  />
+</li>
+</ul>
+<ol start="2">
+<li>
+<p>本地打包工具设计：<br>
+可进行多任务的选择和配置，展示每个渠道的配置状态标识。配置卡片可进行收起，因此可在同一页面对所有渠道进行配置。<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6mgpgcsj20tf0kxwg6.jpg" alt=""  />
+</p>
+</li>
+<li>
+<p>推送功能设计：<br>
+为满足玩家回流需求所设计的新全球推送功能。</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>任务列表：<br>
+任务列表设计的主要难点在于一次任务中可以有多个“子任务”，即可选循环或定时的多次推送。在列表对于推送时间和结果的展示上做了如下处理：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6isfdltj20yi0mjack.jpg" alt=""  />
+</p>
+</li>
+<li>
+<p>推送任务:<br>
+支持多个可选择的筛选项， 包括安卓和iOS平台的选择、推送次数类型（多次推送则涉及到多次时间或时间段的选择），在表单中对于推送的类型和目标做了如下处理：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6jm29lcj20u00yhwhk.jpg" alt=""  />
+</p>
+</li>
+<li>
+<p>任务详情：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6jx7pghj20kx0r1jt5.jpg" alt=""  />
+</p>
+</li>
+</ul>
+<ol start="4">
+<li>版本更新说明弹窗设计：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k5940bebj20ul0nf0uy.jpg" alt=""  />
+</li>
+</ol>
+ ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>K12教育线上课堂</title>
+      <link>https://ulagogo.github.io/posts/k12edu/</link>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/k12edu/</guid>
+      <description>相比于线下课堂，在线教育打破了学校学习条件和环境的限制，且能选择并接受更有针对性和多元化的课程，不受地区教育资源分配不均的困扰。然而对于中低龄儿童来说，在线课堂需要考虑到更多的趣味性和互动性，以弥补”隔着屏幕上课“的劣势。
+线上课堂交互设计  对小班课堂的视频及互动区的优化：
+为了得到更好的关注度和互动性，学生们往往会参加10人以下参与的小班教学，因此师生视频、文字及表情互动能一定程度上提升学生的上课积极性，并满足学生们的互动需求。
+改版前的小班线上课堂：
+然而在课堂的调研中发现，不少家长及老师反馈，由于互动区在屏幕占比较大，学生会有较大精力花在互动区的交流。且每个学生的视频流默认开启，可能会造成一些敏感的家庭环境被拍摄到。
+因此希望重点对小班在线课堂的视频区域和互动区域进行优化，在满足积极互动性的前提下，将学生的注意力更多的放在中心的课件上。
+优化后的小班课堂原型：  对学生的视频区域位置进行调整，从视线较易转移的屏幕下方移至屏幕右侧； 对学生的视频区域进行圆形切割，将学生的面部作为视频的焦点对象，且可暂时关闭自己的摄像头； 缩小同学的视频区域，避免造成对其他同学的过多关注； 将原有讨论区收起，但为保证互动性，同学的发言将以气泡形式有时效地在其视频区域弹出； 将埋点数据中显示的低频表情收起，减少对学生的干扰。  竞品分析调研 K12线上教育竞品分析：
+语文学科课堂分析：
+线上教育对游戏元素的利用：
+迭代优化建议： 新手引导梳理：
+Loading界面优化建议： </description>
+      <content:encoded>
+        <![CDATA[ <p>相比于线下课堂，在线教育打破了学校学习条件和环境的限制，且能选择并接受更有针对性和多元化的课程，不受地区教育资源分配不均的困扰。然而对于中低龄儿童来说，在线课堂需要考虑到更多的趣味性和互动性，以弥补”隔着屏幕上课“的劣势。</p>
+<h2 id="线上课堂交互设计">线上课堂交互设计</h2>
+<p>
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j2jhtwn8j20ga0hhq3p.jpg" alt=""  />
+</p>
+<p>对小班课堂的视频及互动区的优化：</p>
+<p>为了得到更好的关注度和互动性，学生们往往会参加10人以下参与的小班教学，因此师生视频、文字及表情互动能一定程度上提升学生的上课积极性，并满足学生们的互动需求。<br>
+改版前的小班线上课堂：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4vnktvej20id0addhr.jpg" alt=""  />
+</p>
+<p>然而在课堂的调研中发现，不少家长及老师反馈，由于互动区在屏幕占比较大，学生会有较大精力花在互动区的交流。且每个学生的视频流默认开启，可能会造成一些敏感的家庭环境被拍摄到。<br>
+因此希望重点对小班在线课堂的视频区域和互动区域进行优化，在满足积极互动性的前提下，将学生的注意力更多的放在中心的课件上。</p>
+<p>优化后的小班课堂原型：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j2qmmr2wj20lg0kymyh.jpg" alt=""  />
+</p>
+<ol>
+<li>对学生的视频区域位置进行调整，从视线较易转移的屏幕下方移至屏幕右侧；</li>
+<li>对学生的视频区域进行圆形切割，将学生的面部作为视频的焦点对象，且可暂时关闭自己的摄像头；</li>
+<li>缩小同学的视频区域，避免造成对其他同学的过多关注；</li>
+<li>将原有讨论区收起，但为保证互动性，同学的发言将以气泡形式有时效地在其视频区域弹出；</li>
+<li>将埋点数据中显示的低频表情收起，减少对学生的干扰。</li>
+</ol>
+<h2 id="竞品分析调研">竞品分析调研</h2>
+<p>K12线上教育竞品分析：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4d2z4v8j20bq06s3yo.jpg" alt=""  />
+</p>
+<p>语文学科课堂分析：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4axgfxmj20d80hsgmv.jpg" alt=""  />
+</p>
+<p>线上教育对游戏元素的利用：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4inf5ejj20hk0m7wgw.jpg" alt=""  />
+</p>
+<h2 id="迭代优化建议">迭代优化建议：</h2>
+<p>新手引导梳理：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4m0cfbxj20u00vntcf.jpg" alt=""  />
+
+Loading界面优化建议：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j4lljtgyj20vz0u0whc.jpg" alt=""  />
+</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>相机图像质量测评</title>
+      <link>https://ulagogo.github.io/posts/camera/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/camera/</guid>
+      <description>为便于流程化的图像调试，相机组开发了一系列的自动化工具。由于参数众多、配置流程复杂，即使主要用户为专业工程师，调试工具依然具有很高的学习门槛。因此在了解图像调试专业知识的前提下，对自动化调试工具进行界面和交互上的优化，使其更符合调试流程路径，功能分区排布更合理。
+自动编译工具线框图：
+此外，对新增的工具编写可读性较强的工具手册：
+（一些更有趣的工作）为相机变焦流畅度实验准备材料，包括客观的实验室自动拍摄场景，和主观的室内外实景拍摄场景：
+主观测评：
+ 选用饱和度较高且背景较为丰富的图书馆场景和湖畔森林场景，准备参与测评的相机在相同位置和光线条件下的拍摄视频。 专注于焦段变化导致的镜头切换时的视频，同时在屏幕上随机播放两个不同设备的视频，通过专家小组测评，在亮度、对比度、饱和度、焦点移动、图像清晰度等多方面进行更优视频的选择。 通过对被试者选择结果的分析，计算出每个设备在每方面的得分并进行排名。  客观测评：
+ 尝试不同的公式计算目标色卡区域的饱和度值变化曲线，并比较得出结果最合理的公式进行最终计算，得到镜头切换前和切换后的变化大小，从而计算出每个设备的表现。  Recommendation Letter from Vepe：</description>
+      <content:encoded>
+        <![CDATA[ <p>为便于流程化的图像调试，相机组开发了一系列的自动化工具。由于参数众多、配置流程复杂，即使主要用户为专业工程师，调试工具依然具有很高的学习门槛。因此在了解图像调试专业知识的前提下，对自动化调试工具进行界面和交互上的优化，使其更符合调试流程路径，功能分区排布更合理。</p>
+<p>自动编译工具线框图：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7lavi8bj20hz0g3q4w.jpg" alt=""  />
+</p>
+<p>此外，对新增的工具编写可读性较强的工具手册：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7p8ldjej20sg0yzadt.jpg" alt=""  />
+</p>
+<p>（一些更有趣的工作）为相机变焦流畅度实验准备材料，包括客观的实验室自动拍摄场景，和主观的室内外实景拍摄场景：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k84rkaluj20u010wdqe.jpg" alt=""  />
+</p>
+<p>主观测评：</p>
+<ul>
+<li>选用饱和度较高且背景较为丰富的图书馆场景和湖畔森林场景，准备参与测评的相机在相同位置和光线条件下的拍摄视频。</li>
+<li>专注于焦段变化导致的镜头切换时的视频，同时在屏幕上随机播放两个不同设备的视频，通过专家小组测评，在亮度、对比度、饱和度、焦点移动、图像清晰度等多方面进行更优视频的选择。</li>
+<li>通过对被试者选择结果的分析，计算出每个设备在每方面的得分并进行排名。</li>
+</ul>
+<p>客观测评：</p>
+<ul>
+<li>尝试不同的公式计算目标色卡区域的饱和度值变化曲线，并比较得出结果最合理的公式进行最终计算，得到镜头切换前和切换后的变化大小，从而计算出每个设备的表现。</li>
+</ul>
+<p>Recommendation Letter from Vepe：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0k7003xwuj20gk0nedgz.jpg" alt=""  />
+</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>针对青少年市民的游戏化设计</title>
+      <link>https://ulagogo.github.io/posts/youthppgis/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/youthppgis/</guid>
+      <description>Project Name：Gamifying a Public Feedback System to Support Youth Participation
+项目名：对市民反馈系统进行游戏化设计以提高青少年的参与度
+ 课题基于芬兰”All-Youth“项目组中的”Digital Solutions for Digital Generation“子项目
+All-Youth项目链接，论文链接
+项目目标：
+ 研究公众参与地理信息系统（PPGIS）的实践方法，以提升市民对本地信息的表达能力； 调研青少年目前对青少年对公共事务的参与度，探索激励并维持他们对城市环境优化的兴趣的方法； 研究游戏化设计的应用并验证对青少年参与的促进作用。  项目流程：
+调研阶段 PPGIS类产品分析（例：HappyCity - 用户路径）：
+游戏化元素分析：
+设计阶段 UX目标：
+ Stimulation: 对用户有吸引力； Enjoyment: 用户可以有愉悦甚至有趣的使用体验； Competence: 用户在完成任务会伴随着成就感； Efficiency: 易于使用，减少冗余设计； Relationship: 可以满足用户的社交需求。  游戏化的用户场景定义：
+功能架构：
+原型展示：
+测试验证阶段 利用A/B测试验证游戏化设计对被测青少年的使用影响，对照组采用无游戏化设计的意见反馈基本流程：
+用户体验问卷（UEQ）及结果： 与UEQ标准分数的对比： 测试A/B组对照结果： 项目结果 作为主要城市环境的使用者，公民既有保护和保护的公民权利，也有责任改善他们的环境。由于公民的对城市的知识是很大程度上基于其对地方环境的理解，因此基于地图的技术对公共平台很重要。经过对PPGIS的三个公共工具的研究，都可以得到基于来自用户对数字地图的有效响应、请求和想法。
+针对核心问题“什么样的游戏化可以为青少年参与公共事务提供影响？”很多人都建议过公民科学专家认为年轻人应该有机会参与改善城市环境的进程。从结果可以看出在初步调查中，大多数年轻人都打算反馈他们对城市环境的看法。然而，传统的政治活动对年轻人吸引力较小，且不喜欢权威和强硬的语气。因此，游戏化作为一种创新和流行的设计趋势，已被应用在于青少年相关的应用程序和项目。因此游戏化具有潜在优势可以促使青少年参与到公众反馈服务中。
+在此项目中，三个游戏化元素被用于原型：成就、社交和沉浸感。通过A/B测试评估了游戏化的效果，结果表明，游戏化服务可以支持更多愉快和使用体验。尽管有一些与沉浸感有关的元素不适合这个特定的服务或不吸引这个年龄段的年轻人，与社交属性有关的元素有利于更活跃的公共平台。虚拟奖励似乎给了年轻人们积极的反馈以获得成就感。角色和定制增强年轻用户的自我认同感和个性化。但是，游戏化可以一把双刃剑，过于娱乐化的元素会降低了政府平台的严肃性，但通过精心的设计，游戏化是可以考虑为有助于激励和维持青年参与的一个设计趋势。
+Reference：Prof. Kaisa Vaananen</description>
+      <content:encoded>
+        <![CDATA[ <p>Project Name：Gamifying a Public Feedback System to Support Youth Participation<br>
+项目名：对市民反馈系统进行游戏化设计以提高青少年的参与度</p>
+<p>
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0gons5nk9j20ie0ca0tw.jpg" alt="game-con"  />
+
+课题基于芬兰”All-Youth“项目组中的”Digital Solutions for Digital Generation“子项目<br>
+<a href="https://www.allyouthstn.fi/en/all-youth-2/">All-Youth项目链接</a>，<a href="http://urn.fi/URN:NBN:fi:tty-201811222714">论文链接</a></p>
+<p>项目目标：</p>
+<ul>
+<li>研究公众参与地理信息系统（PPGIS）的实践方法，以提升市民对本地信息的表达能力；</li>
+<li>调研青少年目前对青少年对公共事务的参与度，探索激励并维持他们对城市环境优化的兴趣的方法；</li>
+<li>研究游戏化设计的应用并验证对青少年参与的促进作用。</li>
+</ul>
+<p>项目流程：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hb9tr9rmj21440ja414.jpg" alt="workflow"  />
+</p>
+<h2 id="调研阶段">调研阶段</h2>
+<p>PPGIS类产品分析（例：HappyCity - 用户路径）：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0gq10kj49j20u0150wjy.jpg" alt="happycity"  />
+</p>
+<p>游戏化元素分析：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hb1690l8j20dh06swex.jpg" alt="game-ele"  />
+</p>
+<h2 id="设计阶段">设计阶段</h2>
+<p>UX目标：</p>
+<ul>
+<li>Stimulation: 对用户有吸引力；</li>
+<li>Enjoyment: 用户可以有愉悦甚至有趣的使用体验；</li>
+<li>Competence: 用户在完成任务会伴随着成就感；</li>
+<li>Efficiency: 易于使用，减少冗余设计；</li>
+<li>Relationship: 可以满足用户的社交需求。</li>
+</ul>
+<p>游戏化的用户场景定义：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0gptli3pnj218t0u00zs.jpg" alt="scenario"  />
+</p>
+<p>功能架构：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0isi1ixi1j20p00ieq3x.jpg" alt="function"  />
+</p>
+<p>原型展示：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j10e57nxj20qf0f9gni.jpg" alt="pro-1"  />
+<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j1257uvmj20qk0f976f.jpg" alt="pro-2"  />
+<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j12sd3zpj20qg0f6myx.jpg" alt="pro-3"  />
+<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j139dh08j20qh0f7gnl.jpg" alt="pro-4"  />
+<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0j143a96bj20ox0fbtaj.jpg" alt="pro-5"  />
+</p>
+<h2 id="测试验证阶段">测试验证阶段</h2>
+<p>利用A/B测试验证游戏化设计对被测青少年的使用影响，对照组采用无游戏化设计的意见反馈基本流程：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hbo88i8mj20nh0ht40v.jpg" alt="basic"  />
+</p>
+<p>用户体验问卷（UEQ）及结果：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hbq85cyjj215m0rl0yh.jpg" alt="ueq"  />
+<br>
+与UEQ标准分数的对比：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hd0z8n4hj214q0f6mz4.jpg" alt="ueq-r1"  />
+<br>
+测试A/B组对照结果：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hcgp8f29j214k0e6q47.jpg" alt="ueq-r2"  />
+</p>
+<h2 id="项目结果">项目结果</h2>
+<p>作为主要城市环境的使用者，公民既有保护和保护的公民权利，也有责任改善他们的环境。由于公民的对城市的知识是很大程度上基于其对地方环境的理解，因此基于地图的技术对公共平台很重要。经过对PPGIS的三个公共工具的研究，都可以得到基于来自用户对数字地图的有效响应、请求和想法。<br>
+针对核心问题“什么样的游戏化可以为青少年参与公共事务提供影响？”很多人都建议过公民科学专家认为年轻人应该有机会参与改善城市环境的进程。从结果可以看出在初步调查中，大多数年轻人都打算反馈他们对城市环境的看法。然而，传统的政治活动对年轻人吸引力较小，且不喜欢权威和强硬的语气。因此，游戏化作为一种创新和流行的设计趋势，已被应用在于青少年相关的应用程序和项目。因此游戏化具有潜在优势可以促使青少年参与到公众反馈服务中。<br>
+在此项目中，三个游戏化元素被用于原型：成就、社交和沉浸感。通过A/B测试评估了游戏化的效果，结果表明，游戏化服务可以支持更多愉快和使用体验。尽管有一些与沉浸感有关的元素不适合这个特定的服务或不吸引这个年龄段的年轻人，与社交属性有关的元素有利于更活跃的公共平台。虚拟奖励似乎给了年轻人们积极的反馈以获得成就感。角色和定制增强年轻用户的自我认同感和个性化。但是，游戏化可以一把双刃剑，过于娱乐化的元素会降低了政府平台的严肃性，但通过精心的设计，游戏化是可以考虑为有助于激励和维持青年参与的一个设计趋势。</p>
+<p>Reference：Prof. Kaisa Vaananen</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+    <item>
+      <title>本地自然区域探索指南</title>
+      <link>https://ulagogo.github.io/posts/visitampere/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ulagogo.github.io/posts/visitampere/</guid>
+      <description>【NaturalTampere】
+在千湖之国芬兰，森林和湖泊是他们引以为傲的财富。西南城市坦佩雷，被两座大湖环绕其中，且市内一共有200多个大大小小的湖泊，夏季可以游泳、钓鱼和划船，冬季则变成了滑冰和打冰球的运动场地。真正的森林也离市中心一步之遥，在茂密的绿色中徒步是芬兰人的日常，浆果和蘑菇是意外的收获。在冰雪交加的季节，在湖畔小木屋享受一场酣畅的桑拿，是冬季独特的快乐。
+然而，对远道而来的游客来说，户外体验也许因为缺乏对当地的了解而充满障碍。即使有一些旅游向导网站和书籍，信息没有专注于户外活动，也无法满足不同兴趣需求。因此，坦佩雷官方旅游引导网站VisitTampere提出希望有一款目标人群为“坦佩雷户外活动新手”的移动端软件，UX小组（Yuanyuan、Shuo、Helina）参与了此次项目。
+演示视频展示：  .aspect-ratio { position: relative; width: 100%; height: 0; padding-bottom: 75%; } .aspect-ratio iframe { position: absolute; width: 100%; height: 100%; left: 0; top: 0; }    ’
+设计分析： 用户画像（其一）：
+以Marc Hassenzahl的UX模型为模板定义产品的功能、特性和结果： 以用户体验为驱动力可被定义为：
+ Why：游客想要探索坦佩雷的自然景色，所以他/她需要知道哪些地方是值得一去的； What：为了获取更好的游玩体验，有很多信息是他/她需要了解的：地理位置、景色、餐厅、交通，以及可以参与的娱乐活动； How：除了在网络上盲目搜寻可能不准确的攻略、查询可能已经过时的向导书，有一个即时更新和信息全面的线上服务是一个更好的选择。  项目的体验设计目标：
+ 愉悦：用户在浏览线上信息时会触发积极情绪，在旅途前对目的地有期待感。 满意：用户会通过服务得到各种各样的提示信息，如线路推荐、穿衣建议、最佳旅行时段等，足量的信息使用户产生安全感。 可交互：用户不止可以通过此服务获得旅行信息，同样可以分享自己的体验和观看其他旅行者的经历。  概念原型： 登录页:
+主页： 详情页：
+用户测试及结果： 本次项目以用户主观感受为测评依据，通过情绪卡片和评价产品可用性和设计性的问卷，验证此次设计是否完成了目标。
+ EMO Cards  AttackDiff Questionnaire
+  在本次测试中，大部分被试者都愿意尝试这个服务，如果在应用商店上架的话愿意进行下载。根据被试者的回答，我们的体验目标（享受、满意、有掌控感和互动性）得到了很好的满足，并且设计吸引力的分数也达到了预期。更重要的是，该服务为不同兴趣的人寻找新的自然场所提供了帮助：Jessica希望欣赏到各地的景色即时自己暂时无法到达，Aapo希望得到有关浆果和蘑菇的信息，并且也可能通过此服务与同兴趣的人结伴出游，Ilkka对寻找新的适合儿童的野游地充满了期待。当然，我们也收到了惊喜的建议，如AR技术可以给用户带来更生动的体验，用户也可以参与到信息库的建立中。</description>
+      <content:encoded>
+        <![CDATA[ <p>【NaturalTampere】</p>
+<p>在千湖之国芬兰，森林和湖泊是他们引以为傲的财富。西南城市坦佩雷，被两座大湖环绕其中，且市内一共有200多个大大小小的湖泊，夏季可以游泳、钓鱼和划船，冬季则变成了滑冰和打冰球的运动场地。真正的森林也离市中心一步之遥，在茂密的绿色中徒步是芬兰人的日常，浆果和蘑菇是意外的收获。在冰雪交加的季节，在湖畔小木屋享受一场酣畅的桑拿，是冬季独特的快乐。<br>
+然而，对远道而来的游客来说，户外体验也许因为缺乏对当地的了解而充满障碍。即使有一些旅游向导网站和书籍，信息没有专注于户外活动，也无法满足不同兴趣需求。因此，坦佩雷官方旅游引导网站VisitTampere提出希望有一款目标人群为“坦佩雷户外活动新手”的移动端软件，UX小组（Yuanyuan、Shuo、Helina）参与了此次项目。</p>
+<h2 id="演示视频展示">演示视频展示：</h2>
+<style>
+.aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    }
+      
+.aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    }
+</style>
+      
+
+<div align=center class="aspect-ratio">
+    <iframe src="https://player.bilibili.com/player.html?aid=467457869&&page=1&as_wide=1&high_quality=1&danmaku=0" 
+    scrolling="no" 
+    border="0" 
+    frameborder="no" 
+    framespacing="0" 
+    allowfullscreen="true"> 
+    </iframe>
+</div>
+<h2 id="设计分析">’<br>
+设计分析：</h2>
+<p>用户画像（其一）：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hvi85d4jj20yw0u0jwl.jpg" alt="user"  />
+</p>
+<p>以Marc Hassenzahl的UX模型为模板定义产品的功能、特性和结果：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hve8ag6zj20le0cfwfd.jpg" alt="ux-model"  />
+</p>
+<p>以用户体验为驱动力可被定义为：</p>
+<ul>
+<li>Why：游客想要探索坦佩雷的自然景色，所以他/她需要知道哪些地方是值得一去的；</li>
+<li>What：为了获取更好的游玩体验，有很多信息是他/她需要了解的：地理位置、景色、餐厅、交通，以及可以参与的娱乐活动；</li>
+<li>How：除了在网络上盲目搜寻可能不准确的攻略、查询可能已经过时的向导书，有一个即时更新和信息全面的线上服务是一个更好的选择。</li>
+</ul>
+<p>项目的体验设计目标：</p>
+<ul>
+<li>愉悦：用户在浏览线上信息时会触发积极情绪，在旅途前对目的地有期待感。</li>
+<li>满意：用户会通过服务得到各种各样的提示信息，如线路推荐、穿衣建议、最佳旅行时段等，足量的信息使用户产生安全感。</li>
+<li>可交互：用户不止可以通过此服务获得旅行信息，同样可以分享自己的体验和观看其他旅行者的经历。</li>
+</ul>
+<h2 id="概念原型">概念原型：</h2>
+<p>登录页:<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwv8xg0jj20w10iwte7.jpg" alt="login"  />
+</p>
+<p>主页：
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwvr7bmmj20xv0jxjxc.jpg" alt="main"  />
+</p>
+<p>详情页：<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0hwze6f5mj21590f3wit.jpg" alt="details"  />
+</p>
+<h2 id="用户测试及结果">用户测试及结果：</h2>
+<p>本次项目以用户主观感受为测评依据，通过情绪卡片和评价产品可用性和设计性的问卷，验证此次设计是否完成了目标。</p>
+<ol>
+<li>EMO Cards
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0iyzrujkrj20tz09htas.jpg" alt="emocards"  />
+</li>
+<li>AttackDiff Questionnaire<br>
+
+<img class="enclosure" src="https://tva1.sinaimg.cn/large/e6c9d24ely1h0ir1gw0qaj228e0u041r.jpg" alt="at-que"  />
+</li>
+</ol>
+<p>在本次测试中，大部分被试者都愿意尝试这个服务，如果在应用商店上架的话愿意进行下载。根据被试者的回答，我们的体验目标（享受、满意、有掌控感和互动性）得到了很好的满足，并且设计吸引力的分数也达到了预期。更重要的是，该服务为不同兴趣的人寻找新的自然场所提供了帮助：Jessica希望欣赏到各地的景色即时自己暂时无法到达，Aapo希望得到有关浆果和蘑菇的信息，并且也可能通过此服务与同兴趣的人结伴出游，Ilkka对寻找新的适合儿童的野游地充满了期待。当然，我们也收到了惊喜的建议，如AR技术可以给用户带来更生动的体验，用户也可以参与到信息库的建立中。</p>
+ ]]>
+      </content:encoded>
+    </item>
+    
+  </channel>
+</rss>
