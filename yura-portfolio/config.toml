@@ -1,0 +1,50 @@
+# Your full site URL. Example:
+# "https://<username>.neocities.org/"
+baseURL = "https://ulagogo.github.io/"
+languageCode = "en-us"
+defaultContentLanguage = "zh-cn"
+# Title of your site
+title = "Yuanyuan's Portfolio ✨"
+
+# How many feed entries to load at once
+paginate = 6
+
+[taxonomies]
+tag = "tags"
+
+[author]
+name = "UX任务 @官媛媛" # Your online name
+# Your profile image. External link or relative to static/. Examples:
+image = "https://tva1.sinaimg.cn/large/e6c9d24ely1h0gnxj5bfij20j70j8wev.jpg"
+about = "作为问题解决者去尝试分析和改善与机器的交互关系，通过定性和定量的用户研究去理解不同的思想和生活习惯。我相信科技可以彻底改变人们的生活、学习和创造方式，渴望能努力让用户以他们最擅长和喜欢的方式去使用产品和服务。"
+
+[params]
+# Name of a file in static/skins/ without the ".css" extension
+skin = "macintosh"
+
+#
+# Totally optional cool stuff (see README for details)
+#
+# socialImage = "static/img/social.png" # site image for rich embeds
+# customCSS = "css/style.css" # relative to ./static/
+# plausible = true
+# paymentPointer = "$wallet.provider.com/myspecialid123"
+# webmentionUrl = "https://webmention.io/example/webmention"
+# pingbackUrl = "https://webmention.io/example/xmlrpc"
+# micropubUrl = "https://example.com/.netlify/functions/micropub"
+# microsubUrl = "https://aperture.p3k.io/microsub/example"
+
+#
+# For IndieAuth and the author card
+#
+# githubuser = "chihiro"
+# twitteruser = "chihiro" # no @ in front
+# mastodon = "https://mastodon.technology/@chihiro" # full link to your instance profile
+
+[permalinks]
+# Format for feed entry links. You probably don't need to change this.
+feed = "/:title/"
+
+[outputs]
+# Output formats for your feed. You probably don't need to change this.
+home = ["HTML", "JSON", "RSS"]
