@@ -1,7 +1,7 @@
 ---
 title: K12教育线上课堂 
 date: 2021-06-08 
-categories: ["work"]
+categories: ["note"]
 tags: 
     - K12教育
     - TO C

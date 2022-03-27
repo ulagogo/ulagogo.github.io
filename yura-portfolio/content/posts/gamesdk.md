@@ -1,14 +1,14 @@
 ---
 title: 手游发行平台 
 date: 2022-03-20 
-categories: ["work"] 
+categories: ["note"] 
 tags:
     - 手游渠道发行
     - SAAS
     - B端设计
 ---
 
-——协助手游发行的全流程  
+——协助手游发行的全流程：  通过聚合以及自动更新海内外主流登陆、支付、发行渠道，为手游开发团队提供适用于全球的接入、发行、运营解决方案。  
 
 用户路径：  
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0k5dbqzmrj21840cwwfg.jpg)  
@@ -33,8 +33,7 @@ tags:
 为满足玩家回流需求所设计的新全球推送功能：  
 - 任务列表：  
 任务列表设计的主要难点在于一次任务中可以有多个“子任务”，即可选循环或定时的多次推送。在列表对于推送时间和结果的展示上做了如下处理：  
-![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6isfdltj20yi0mjack.jpg)  
-
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6isfdltj20yi0mjack.jpg)
 - 推送任务:  
 支持多个可选择的筛选项， 包括安卓和iOS平台的选择、推送次数类型（多次推送则涉及到多次时间或时间段的选择），在表单中对于推送的类型和目标做了如下处理：
 ![](https://tva1.sinaimg.cn/large/e6c9d24ely1h0k6jm29lcj20u00yhwhk.jpg) 

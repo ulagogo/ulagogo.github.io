@@ -5,6 +5,7 @@ languageCode = "en-us"
 defaultContentLanguage = "zh-cn"
 # Title of your site
 title = "Yuanyuan's Portfolio ✨"
+summaryLength = 1
 
 # How many feed entries to load at once
 paginate = 6

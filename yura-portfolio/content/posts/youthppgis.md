@@ -1,15 +1,14 @@
 ---
 title: 针对青少年市民的游戏化设计
 date: 2018-12-05
-categories: ["project"]
+categories: ["note"]
 tags: 
     - Gamification
     - PPGIS
     - Youth Participation
 ---
 
-Project Name：Gamifying a Public Feedback System to Support Youth Participation  
-项目名：对市民反馈系统进行游戏化设计以提高青少年的参与度  
+Gamifying a Public Feedback System to Support Youth Participation --- 对市民反馈系统进行游戏化设计以提高青少年的参与度  
 
 ![game-con](https://tva1.sinaimg.cn/large/e6c9d24ely1h0gons5nk9j20ie0ca0tw.jpg)
 课题基于芬兰”All-Youth“项目组中的”Digital Solutions for Digital Generation“子项目  
